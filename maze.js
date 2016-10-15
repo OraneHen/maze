@@ -18,10 +18,6 @@ window.onload = function main(){
       document.getElementById('status').innerHTML = "Move your mouse over the E to Win."
       console.log(status);
     }
-    else {
-      status = false;
-      console.log(status);
-    }
   }
 
   document.getElementById('end').onmouseover=function(){
